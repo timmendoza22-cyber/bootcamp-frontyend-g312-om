@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+<style> 
+    /* 1. Oculta todas las secciones por defecto */ 
+    section { 
+        display: none;
+        padding: -10px;
+        margin-top: -10px;
+        border: 1px solid #ccc; 
+    }
+    /* 2. Muestra solo la sección que coincide con el enlace (#id) */ 
+    section:target { 
+        display: block;
+    }
+    /* Opcional: Muestra la primera sección al cargar la página por primera vez */ 
+    #inicio { 
+        display: block; 
+    }
+    /* Si otra sección se activa, oculta la de inicio */ 
+    body:has(section:target) #inicio:not(:target) { 
+        display: none; 
+    }
+</style>
+</head>
+<body>
+    <!--TODO: Crear tu propia pagina web semantica-->
+    <!--Construye tu propia agina de info personal-->
+    <header>
+        <h1>OSCAR MENDOZA AZANZA</h1>
+        <img src="photo_2026-07-03 01.17.00.jpeg" alt="" width="150">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contactanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <p></p>
+
+        <section id="inicio">
+            <H2 style="color: blue;">BIENVENIDOS <span>A MI PAGINA</span></H2> 
+        </section>
+
+        <section id="historia">
+            <h2>
+            Porductos destacados
+            </h2>
+
+            <article>
+                <h3>zapatillas Nike</h3>
+                <p>zapatillas con acabado perfecti</p>
+                <img src="pc.png" alt="" width="150">
+            </article>
+
+            <article>
+                <h3>zapatillas Adidas</h3>
+                <p>zapatillas con acabado Adidas</p>
+                <img src="pc.png" alt="" width="150">
+            </article>
+        </section>
+        <section id="servicios">
+            <h2>
+            Servicios destacados
+            </h2>
+
+            <article>
+                <h3>zapatillas Nike</h3>
+                <p>zapatillas con acabado perfecti</p>
+                <img src="pc.png" alt="" width="150">
+            </article>
+
+            <article>
+                <h3>zapatillas Adidas</h3>
+                <p>zapatillas con acabado Adidas</p>
+                <img src="pc.png" alt="" width="150">
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>
+            Me puedes ubicar en:
+            </h2>
+
+            <article>
+                <h3>Celular</h3>
+                <p>51961607136</p>
+                <img src="whatsapp-icon-logo-svgrepo-com.svg" alt="" width="150">
+            </article>
+
+            <article>
+                <h3>Email:</h3>
+                <p>timmendoza22@gmail.com</p>
+                <img src="pc.png" alt="" width="150">
+            </article>
+        </section>          
+        <!-- <aside>
+            <h2>contenido adicinal</h2>
+            <p>imagnes, contenido, etc</p>
+        </aside> -->
+
+        <footer>
+            <h3>
+                Hecho por Oscar Mendoza 2026
+            </h3>
+        </footer>
+
+    </main>
+</body>
+</html>
