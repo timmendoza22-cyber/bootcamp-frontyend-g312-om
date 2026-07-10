@@ -1,0 +1,31 @@
+/*
+*/
+body {
+    background-color:beige;
+}
+p {
+    color: green;
+}
+h2 {
+    color: red;
+    font-size: 22px;
+
+}
+h2 {
+    background-color: peru;
+
+}
+h1 {
+    background-color:azure;
+}
+#estado {
+    background-color: yellow;
+}
+.btn{
+    background-color: blue;
+    color: white;
+}
+.texto-resaltado {
+    font-size: 18px;
+
+}
