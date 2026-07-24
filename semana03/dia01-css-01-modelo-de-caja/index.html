@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caja</title>
+    <style>
+        .caja {
+            width: 200px;
+            height: 50px;
+            background-color: coral;
+            border: 5px solid red;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: content-box; /* Valor por defecto */    
+            box-sizing: border-box; /* Cambiar a border-box para incluir padding y border en el tamaño total */ 
+        }
+        .bloque {
+            display: block;
+            background-color: lightblue;
+        }
+        .enlinea {
+            display: inline;
+            background-color: lightgreen;
+        }
+        .enlinea-bloque {
+            display: inline-block;
+            background-color: lightyellow;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="caja">Modelo de Caja</div>
+    <div class="bloque">BLOQUE</div>
+    <div class="enlinea">EN LINEA 1</div>
+    <div class="enlinea">EN LINEA 2</div>
+    <div class="enlinea-bloque">EN LINEA Y BLOQUE</div>
+
+
+</body>
+</html>

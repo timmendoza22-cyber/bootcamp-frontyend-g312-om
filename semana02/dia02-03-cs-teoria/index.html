@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teoria CSS</title>
+    <style>
+        /*Pseud clases*/
+        button{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: blue;
+            font-size: 20px;
+        }
+        /*Pseud elementos*/
+        /*permiten crear partesvirtules de un lemento (etiqueta)*/
+        p{
+            color: blue;
+        }
+        p::before{
+            content: "X";
+            color: red;
+        }
+        p::after{
+            content: "Y";
+            color: red;
+        }
+        /*selectores COMBINADOS*/
+        /*selectores de descendencia*/
+        article h2{
+            color: orange;
+        }
+        article strong{
+            color: green;
+        }
+        /*selectores de multiples seletores*/
+        h1, h2, h3{
+            color: blue;
+        }
+        body{
+            background-color: azure;
+            color: blue;
+        }
+        button{
+            color: inherit;
+        }
+        a{
+            color: inherit;
+        }
+
+        header {
+            color: violet;
+        }
+        #cabecera{
+            color: orange ;
+        }
+        .texto{
+            color: red;
+        }
+
+        h2{
+            color: fuchsia;
+        }
+    </style>
 </head>
 <body>
-    
+    <button>Click aquí</button>
+
+    <p>Texto especial</p>
+    <article>
+        <h2>bienvenido</h2>
+
+        <strong>Hola a todos</strong>
+    </article>
+
+    <section>
+        <h1>Titulo</h1>
+        <h2>Subtitulo</h2>
+
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita commodi nam dignissimos velit nobis cumque, possimus ullam eaque earum soluta repellat voluptates dolores ex doloribus sunt, aperiam quae nesciunt?</strong>
+        <em>texto cvvon enfasis</em>
+        
+        <a href="">Soy un link</a>
+    </section>
+
+    <header id="cabecera" class="texto">
+        de que color soy
+
+    </header>
+
 </body>
 </html>

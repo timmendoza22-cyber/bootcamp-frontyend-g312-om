@@ -1,0 +1,87 @@
+/* 
+  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
+
+ */
+ body {
+    background-color: hsl(38, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ main {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 650px;
+    padding: 0px;
+    display: flex;
+    min-height: 400px;
+ }
+ .foto {
+    width: 350px;
+    min-height: 400px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .content {
+    width: 300px;
+    min-height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 2.5rem;
+    background-color: white;
+    
+ }
+h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: grey;
+    padding-top: 2rem;
+ }
+ p {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 1rem;
+ }
+ .precio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .content span {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    margin-right: 20px;
+ }
+.content s {
+    color: hsl(228, 12%, 48%);
+ }
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 15px 20px;
+    font-family: "Fraunces", serif;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content:center;
+ }
+h1 {
+   font-size: 2rem;
+}
+
