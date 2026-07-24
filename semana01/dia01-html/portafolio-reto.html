@@ -4,38 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
-<style> 
-    /* 1. Oculta todas las secciones por defecto */ 
-    section { 
-        display: none;
-        padding: -10px;
-        margin-top: -10px;
-        border: 1px solid #ccc; 
-    }
-    /* 2. Muestra solo la sección que coincide con el enlace (#id) */ 
-    section:target { 
-        display: block;
-    }
-    /* Opcional: Muestra la primera sección al cargar la página por primera vez */ 
-    #inicio { 
-        display: block; 
-    }
-    /* Si otra sección se activa, oculta la de inicio */ 
-    body:has(section:target) #inicio:not(:target) { 
-        display: none; 
-    }
-</style>
 </head>
 <body>
-    <!--TODO: Crear tu propia pagina web semantica-->
-    <!--Construye tu propia agina de info personal-->
+    <!---->
     <header>
         <h1>OSCAR MENDOZA AZANZA</h1>
         <img src="photo_2026-07-03 01.17.00.jpeg" alt="" width="150">
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#historia">Historia</a>
-            <a href="#servicios">Servicios</a>
+            <a href="#sobremi">Sobre Mi</a>
+            <a href="#experiencia">Experiencia</a>
             <a href="#contacto">Contactanos</a>
         </nav>
     </header>
@@ -43,72 +20,46 @@
     <main>
         <p></p>
 
-        <section id="inicio">
-            <H2 style="color: blue;">BIENVENIDOS <span>A MI PAGINA</span></H2> 
+        <section id="sobremi">
+            <h2 style="color: blue;">SOBRE <span>MI</span></h2>
+            <h3 style ="color: green;">
+                Soy Oscar Mendoza Azanza, egresado de la carrera de Ingenieria Industrial de la Universidad de Piura. Me gusta mucho la programacion y el desarrollo web, espero que mi portafolio sea de su agrado.
+            </h3> 
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iure repellat alias commodi odit dolores laboriosam consectetur, blanditiis eveniet quasi? Doloremque error nam eaque ipsum et temporibus repellat sequi ex.</h2>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nulla illum beatae praesentium accusamus modi! Enim ducimus voluptate commodi itaque, atque repellendus vel, nam officia doloremque molestias est. Temporibus, ex.</h2>
         </section>
 
-        <section id="historia">
-            <h2>
-            Porductos destacados
+        <section id="experiencia">
+            <h2 style="color: blue;">EXPERIENCIA</h2>
+            <h2 text-align="center" style="color: blue;">
+            Tengo experiencia en el desarrollo de aplicaciones web con Google App Script y en la creacion de paginas web con wordpress, he trabajado con diferentes tecnologias y herramientas para crear soluciones efectivas y atractivas para los usuarios.
             </h2>
-
-            <article>
-                <h3>zapatillas Nike</h3>
-                <p>zapatillas con acabado perfecti</p>
-                <img src="pc.png" alt="" width="150">
+            <article style ="font-size: 20px;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatibus corrupti, facilis hic illum nam saepe reiciendis, cumque cupiditate quae rem unde incidunt fuga beatae repudiandae quidem fugit ab quibusdam!
             </article>
-
-            <article>
-                <h3>zapatillas Adidas</h3>
-                <p>zapatillas con acabado Adidas</p>
-                <img src="pc.png" alt="" width="150">
+            <article style ="font-size: 18px; color: green;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatibus corrupti, facilis hic illum nam saepe reiciendis, cumque cupiditate quae rem unde incidunt fuga beatae repudiandae quidem fugit ab quibusdam!
             </article>
-        </section>
-        <section id="servicios">
-            <h2>
-            Servicios destacados
-            </h2>
-
-            <article>
-                <h3>zapatillas Nike</h3>
-                <p>zapatillas con acabado perfecti</p>
-                <img src="pc.png" alt="" width="150">
-            </article>
-
-            <article>
-                <h3>zapatillas Adidas</h3>
-                <p>zapatillas con acabado Adidas</p>
-                <img src="pc.png" alt="" width="150">
+            <article style ="font-size: 15px; color: red;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatibus corrupti, facilis hic illum nam saepe reiciendis, cumque cupiditate quae rem unde incidunt fuga beatae repudiandae quidem fugit ab quibusdam!
             </article>
         </section>
         <section id="contacto">
+            <h2 style="color: blue;">CONTÀCTAME </h2>
+            
             <h2>
-            Me puedes ubicar en:
+                <a href="mailto:timmendoza22@gmail.com" style="color: blue; text-decoration: underline;">Contactame por correo electronico</a>
             </h2>
 
-            <article>
-                <h3>Celular</h3>
-                <p>51961607136</p>
-                <img src="whatsapp-icon-logo-svgrepo-com.svg" alt="" width="150">
-            </article>
-
-            <article>
-                <h3>Email:</h3>
-                <p>timmendoza22@gmail.com</p>
-                <img src="pc.png" alt="" width="150">
-            </article>
-        </section>          
-        <!-- <aside>
-            <h2>contenido adicinal</h2>
-            <p>imagnes, contenido, etc</p>
-        </aside> -->
-
-        <footer>
-            <h3>
-                Hecho por Oscar Mendoza 2026
-            </h3>
-        </footer>
+        </section>
+         
+        
 
     </main>
 </body>
+<footer>
+            <h3>
+                Hecho por Oscar Mendoza 2026 - 0Tecsup Codigo G31
+            </h3>
+</footer>
 </html>
